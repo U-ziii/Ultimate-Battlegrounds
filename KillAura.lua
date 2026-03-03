@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/nonamebtc/UBG/refs/heads/main/Elyos.lua"))()
+    local Games = loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/151c8e1a6dc57a08a30883eac94353878bed3254d147f99c5607eab6326c8503/download"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
