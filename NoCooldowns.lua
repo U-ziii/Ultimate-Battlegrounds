@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalSkidder/ultimate/refs/heads/main/Protected_1855805535235895.lua",true))()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/nismovxa/acro-hub/refs/heads/main/acro-main"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
